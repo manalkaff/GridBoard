@@ -1,0 +1,3 @@
+include ':GridBoard'
+include ':app'
+rootProject.name = "GridBoardExample"
