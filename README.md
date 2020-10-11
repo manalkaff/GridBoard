@@ -3,6 +3,8 @@ GridBoard is an android library that made it easy to make `In App` or virtual ke
 <br /> 
 At first i made GridBoard just for my personal project, so its kinda of a mess and for now its just implementing **Key Pad**.
 
+
+
 ## Installation
 
 First you need to add `jitpack` repositories in your root build.gradle at the end of repositories
@@ -40,6 +42,9 @@ After that you can implement **GridBoard** by doing this.
 ```
 GridBoard gridBoard = new GridBoard(this, gbview);
 gridBoard.setInputConnection(editText.onCreateInputConnection(new EditorInfo()));
+
+// Disabling Soft Keyboard for the EditText
+editText.setShowSoftInputOnFocus(false);
 ```
 
 And thats all it need.
