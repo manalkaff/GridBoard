@@ -23,6 +23,7 @@ dependencies {
 
 ## Usage
 
+To use GridBoard, you need `RecyclerView` as the GridBoard view, and `EditText` as the input for **GridBoard**
 ### View initialization
 ```
 private EditText editText;
@@ -32,6 +33,7 @@ editText = findViewById(R.id.textinput);
 gbview = findViewById(R.id.gridboard_view);
 ```
 
+After that you can implement **GridBoard** by doing this.
 ### GridBoard Implementation
 ```
 GridBoard gridBoard = new GridBoard(this, gbview);
