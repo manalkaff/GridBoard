@@ -1,5 +1,7 @@
 # GridBoard
-GridBoard is an android library that made it easy to make `In App` or virtual keyboard. **GridBoard** is using `RecyclerView` instead of `KeyboardView` that has been deprecated. At first i made GridBoard just for my personal project, so its kinda of a mess and for now its just implementing **Key Pad**.
+GridBoard is an android library that made it easy to make `In App` or virtual keyboard. **GridBoard** is using `RecyclerView` instead of `KeyboardView` that has been deprecated.
+<br /> 
+At first i made GridBoard just for my personal project, so its kinda of a mess and for now its just implementing **Key Pad**.
 
 ## Installation
 
@@ -31,7 +33,6 @@ private RecyclerView gbview;
 editText = findViewById(R.id.textinput);
 gbview = findViewById(R.id.gridboard_view);
 ```
-<br />
 <br />
 
 ### GridBoard Implementation
